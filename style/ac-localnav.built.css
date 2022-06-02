@@ -523,7 +523,6 @@ h1 #ac-localnav sup, h2 #ac-localnav sup, h3 #ac-localnav sup {
 
 @media only screen and (max-width: 767px) {
     .ac-nav-overlap #ac-localnav {
-        margin-top: 48px;
         margin-bottom: -96px
     }
 
