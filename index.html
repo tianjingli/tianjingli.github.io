@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var url = window.location.href.toLowerCase().split("/");
+      var targetUrl = "";
+      var perdomian = "tianjingli.github.io";
+      var domain = "jerryt92.github.io";
+      for (i = 0; i < url.length; i++) {
+        if (url[i] == perdomian) {
+          url[i] = domain;
+          break;
+        }
+      }
+        for (i = 0; i < url.length; i++) {
+          targetUrl += url[i] + "/";
+        }
+        window.location.href = targetUrl
+    </script>
+  </body>
+</html>
