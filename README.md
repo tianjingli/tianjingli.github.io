@@ -1,1 +1,1 @@
-# Jump to jerryt92.github.io
+# Redirect to jerryt92.github.io
